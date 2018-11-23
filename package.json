@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod --aot"
+    "e2e": "ng e2e"    
   },
   "private": true,
   "dependencies": {
@@ -25,8 +24,6 @@
     "@angular/router": "^6.0.3",
     "bootstrap": "^3.3.7",
     "core-js": "^2.5.4",
-    "express": "^4.16.4",
-    "firebase": "^5.5.4",
     "path": "^0.12.7",
     "rxjs": "^6.0.0",
     "typescript": "~2.7.2",
@@ -41,7 +38,6 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "~4.2.1",
-    "enhanced-resolve": "^3.3.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~1.7.1",
